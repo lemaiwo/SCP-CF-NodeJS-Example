@@ -1,0 +1,17 @@
+{
+  "name": "dest-demo-nodejs",
+  "version": "1.0.0",
+  "description": "Demo using SCP CF Destination service locally in NodeJS",
+  "main": "index.js",
+  "scripts": {
+      "start": "node index"
+  },
+  "author": "Wouter Lemaire",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/xsenv": "^2.2.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  }
+}

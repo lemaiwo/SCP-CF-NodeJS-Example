@@ -1,0 +1,24 @@
+{
+    "VCAP_SERVICES": {
+        "xsuaa": [
+            {
+                "name": "my-uaa-service",
+                "label": "xsuaa",
+                "tags": [
+                    "xsuaa"
+                ],
+                "credentials": <my-xsuaa-service-key>
+            }
+        ],
+        "destination": [
+            {
+                "name": "my-destination-service",
+                "label": "destination",
+                "tags": [
+                    "destination"
+                ],
+                "credentials":<my-destination-service-key>
+            }
+        ]
+    }
+}

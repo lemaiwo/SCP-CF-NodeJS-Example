@@ -1,0 +1,8 @@
+---
+applications:
+- name: dest-demo-nodejs
+  path: .
+  memory: 128M
+  services:
+  - my-uaa-service
+  - my-destination-service
