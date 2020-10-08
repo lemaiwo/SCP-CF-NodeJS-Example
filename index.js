@@ -9,8 +9,8 @@ const port = process.env.PORT || 3000;
 const sDestinationName = 'IAS';
 
 app.get('/data', async (req, res) => {
-    const dest = await core.getDestination(sDestinationName);
-    let response = await core.executeHttpRequest(dest, {
+    // const dest = await core.getDestination(sDestinationName);
+    let response = await core.executeHttpRequest({ destinationName: sDestinationName}, {
         method: 'GET',
         url: "/service/scim/Users?count=2&startIndex=3"
     });
